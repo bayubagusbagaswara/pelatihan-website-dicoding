@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    background-color: #dddddd;
+    max-width: 100%;
+    /* margin: 10px auto; */
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container header {
+    background-color: rgb(255, 14, 255);
+    flex: 0 0 100%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .jumbotron {
+    background-color: blue;
+    flex: 0 0 100%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container .content {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+.container .content .sidebar {
+    display: flex;
+    flex: 0 0 100%;
+    flex-direction: column;
+}
+
+/* .container .content .sidebar aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 177, 233);
+    flex: 1 0 0;
+} */
+
+.container .content .sidebar nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 17, 117);
+    flex: 1.5 0 0;
+}
+
+.container .content main {
+    background-color: rgb(255, 167, 52);
+    flex: 0 0 100%;
+    padding: 150px 0;
+}
+
+.container footer {
+    flex: 0 0 100%;
+    background-color: rgb(128, 117, 117);
+    padding: 15px;
+}
